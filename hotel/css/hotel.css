@@ -2,9 +2,17 @@ body{
     position: relative;
     width: 1340px;
     height: 1250px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Title */
+body .title {
+    position: absolute;
+    text-align: center;
+    left: 558px;
+    top: 15px;
+}
 body .title h1{
     text-align: center;
     text-transform: uppercase;
@@ -18,14 +26,13 @@ body .blue_heven{
     position: absolute;
     width: 730px;
     height: 500px;
-    left: 165px;
+    margin-left: 165px;
     top: 150px;
     background: #0A223D;
     border-radius: 8px 8px 8px 8px;
     
 }
 body .blue_heven .image img{
-    
     border-radius: 8px 0px 0px 8px;;
 }
 body .blue_heven .image .flash_offer{
@@ -53,18 +60,21 @@ body .blue_heven .about .hotel_name{
     position: absolute;
     width: 149px;
     height: 36px;
-    left: 409px;
-    top: 46px;
+    left: 410px;
+    top: 40px;
 }
 body .blue_heven .about .hotel_name .stars{
     position: absolute;
+    display: flex;
+    justify-content: space-around;
     width: 48px;
     height: 8px;
+    top: 5px;
+    left: -1px;
 }
-body .blue_heven .about .hotel_name .stars i{
-    font-size: 8px;
-    letter-spacing: -2.9px;
-    color: #ffd700;
+body .blue_heven .about .hotel_name .stars img{
+    width: 8px;
+    height: 8px;
 }
 body .blue_heven .about .hotel_name p{
     position: absolute;
@@ -84,57 +94,53 @@ body .blue_heven .about .text p{
     width: 299px;
     height: 165px;
     left: 409px;
-    top: 109px;
-
-    font-family: 'Muli', sans-serif;
+    top: 94px;
+    font-family: 'Muli';
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 22px;
+    letter-spacing: 0.22px;
     color: white;
 }
 body .blue_heven .about .room .address{
     position: absolute;
     width: 203px;
     height: 15px;
-    left: 409px;
+    left: 412px;
     top: 308px;
 }
 body .blue_heven .about .room .guests{
     position: absolute;
     width: 87px;
     height: 15px;
-    left: 409px;
+    left: 412px;
     top: 334px;    
 }
 body .blue_heven .about .room .hotel_room{
     position: absolute;
     width: 81px;
     height: 15px;
-    left: 409px;
+    left: 412px;
     top: 360px;
-}
-body .blue_heven .about .room i{
-    position: absolute;
-    font-size: 14px;
-    color: white;
 }
 body .blue_heven .about .room p{
     position: absolute;
-    top: -12px;
-    left: 25px;
+    top: -13px;
+    left: 28px;
     width: 175px;
     height: 15px;
     font-family: 'Muli', sans-serif;
     font-style: normal;
     font-size: 12px;
+    letter-spacing: 0.1px;
     color: white;
 }
 body .blue_heven .about .cost span{
     position: absolute;
     width: 58px;
     height: 18px;
-    left: 409px;
+    left: 412px;
     top: 412px;
     font-family: 'Muli', sans-serif;
     font-style: normal;
@@ -148,7 +154,7 @@ body .blue_heven .about .sale_cost span{
     position: absolute;
     width: 85px;
     height: 30px;
-    left: 409px;
+    left: 412px;
     top: 435px;
     font-family: 'Muli', sans-serif;
     font-style: normal;
@@ -161,11 +167,10 @@ body .blue_heven .about .book_now button{
     position: absolute;
     width: 120px;
     height: 40px;
-    left: 594px;
-    top: 430px;
+    left: 588px;
+    top: 429px;
     background: #EC1F46;
     border-radius: 4px;
-
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -181,7 +186,7 @@ body .belle_mare{
     position: absolute;
     width: 350px;
     height: 500px;
-    left: 925px;
+    margin-left: 925px;
     top: 150px;
     background: #0A223D;
     border-radius: 8px 8px 8px 8px;
@@ -193,32 +198,34 @@ body .white_palase{
    position: absolute;
    width: 350px;
    height: 500px;
-   left: 165px;
+   margin-left: 165px;
    top: 680px;
    background: #0A223D;
    border-radius: 8px 8px 8px 8px;
 }    
 
-/* Luxury Palace */
+/* Luxury Place */
 body .luxury_palace{
     position: absolute;
     width: 350px;
     height: 500px;
-    left: 545px;
+    margin-left: 545px;
     top: 680px;
     background: #0A223D;
     border-radius: 8px 8px 8px 8px;
 }
+
 /* Hotel Five Star */
 body .five_star{
     position: absolute;
     width: 350px;
     height: 500px;
-    left: 925px;
+    margin-left: 925px;
     top: 680px;
     background: #0A223D;
     border-radius: 8px 8px 8px 8px;
 } 
+
 /* схожие элементы */
 body .image img{
     border-radius: 8px 8px 0px 0px;
@@ -248,8 +255,8 @@ body .about .hotel_name p{
     position: absolute;
     width: 138px;
     height: 23px;
-    left: 32px;
-    top: 270px;
+    left: 33px;
+    top: 261px;
     font-family: 'Muli', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -261,22 +268,22 @@ body .about .room .address{
     position: absolute;
     width: 203px;
     height: 15px;
-    left: 32px;
-    top: 329px;
+    left: 33px;
+    top: 326px;
 }
 body .about .room .guests{
     position: absolute;
     width: 203px;
     height: 15px;
-    left: 32px;
-    top: 355px;
+    left: 33px;
+    top: 352px;
 }
 body .about .room .hotel_room{
     position: absolute;
     width: 203px;
     height: 15px;
-    left: 32px;
-    top: 381px;
+    left: 33px;
+    top: 378px;
 }
 body .about .room i{
     position: absolute;
@@ -285,8 +292,8 @@ body .about .room i{
 }
 body .about .room p{
     position: absolute;
-    top: -12px;
-    left: 25px;
+    top: -13px;
+    left: 28px;
     width: 175px;
     height: 15px;
     font-family: 'Muli', sans-serif;
@@ -299,7 +306,7 @@ body .about .cost span{
     width: 58px;
     height: 18px;
     left: 32px;
-    top: 412px;
+    top: 417px;
     font-family: 'Muli', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -313,7 +320,7 @@ body .about .sale_cost span{
     width: 85px;
     height: 30px;
     left: 32px;
-    top: 435px;
+    top: 440px;
     font-family: 'Muli', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -326,7 +333,7 @@ body .about .book_now button{
     width: 120px;
     height: 40px;
     left: 209px;
-    top: 430px;
+    top: 435px;
     background: #EC1F46;
     border-radius: 4px;
     font-family: 'Nunito', sans-serif;
